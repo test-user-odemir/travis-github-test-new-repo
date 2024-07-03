@@ -399,7 +399,6 @@ class Move():
                         self.isPawnPromotion = True
                 self.moveID = self.startRow * 1000 + self.startCol * 100 + self.endRow * 10 + self.endCol 
 
-
         def newFunction11(self, startSq, endSq, board):
                 """
                 testsdfs
