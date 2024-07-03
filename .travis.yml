@@ -3,6 +3,9 @@ deploy:
 install:
 before_script:
 script:
+branches:
+  only:
+    - /^v?\d+\.\d+\.\d+.*$/
 
 ## Change the url if necessary
 notifications:
