@@ -11,7 +11,7 @@ branches:
 notifications:
   webhooks:
     urls:
-      - https://atlas-webhook-n2.valven.com:4443/api/deployment/4a782dea-57c0-4944-b514-25e3bc738349
+      - https://atlas-webhook-n2.valven.com:11443/api/deployment/4a782dea-57c0-4944-b514-25e3bc738349
     on_success: always
     on_failure: never
     on_start:   never
