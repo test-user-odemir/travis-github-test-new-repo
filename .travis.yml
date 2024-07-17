@@ -4,7 +4,7 @@ install:
 before_script:
 script:
 branches:
-  except:
+  only:
     - /^v.*/
 
 ## Change the url if necessary
